@@ -25,7 +25,7 @@ export default function Navbar() {
     console.log('Logout');
     signOut(auth).then(() => {
       // Sign-out successful.
-      // dispatch((null));
+      dispatch(null);
     });
   };
 
